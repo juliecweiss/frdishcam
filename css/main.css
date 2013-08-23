@@ -1,76 +1,109 @@
 body {
-  	background: #243B40;
-  	font-family: arial, helvetica, sans-serif;
-  	margin: 0;
-  	padding: 0;
+background: #243B40;
+font-family: arial, helvetica, sans-serif;
+margin: 0;
+padding: 0;
 }
   
 
 .header {
-	margin: 40px 100px	
+margin: 40px 100px	
 }
 
 .header p{
-	color: #F2D5A0;
-	font-size: 40px;
+color: #F2D5A0;
+font-size: 40px;
+font-family: "century gothic";
+}
+
+.video {
+margin-left: 100px;
+margin-bottom: 30px;
+}
+
+.video img{
+opacity:0.3;filter:alpha(opacity=30); 
 }
 
 .record_button {
-	margin-left: 100px;
-	-webkit-border-radius: 15px;
-	-moz-border-radius: 15px;
-	border-radius: 15px;
-	background-color: #BF362A;
-	border: 2px solid #7A231B;
-	height: 60px;
-	width: 200px;
+margin-left: 100px;
+margin-right: 20px;
+margin-bottom: 100px;
+-webkit-border-radius: 15px;
+-moz-border-radius: 15px;
+border-radius: 15px;
+background-color: #BF362A;
+border: 2px solid #7A231B;
+height: 60px;
+width: 200px;
+float: left;
 }
 
 .record_button:hover {
-	margin-left: 100px;
-	-webkit-border-radius: 15px;
-	-moz-border-radius: 15px;
-	border-radius: 15px;
-	background-color: #E03F31;
-	height: 60px;
-	width: 200px;
+background-color: #E03F31;
 }
 
-
 .record_button p {
-	color: #7A231B;
-	padding: 1px 0px;
-	text-align: center;
-	text-transform:uppercase;
-	font-size: 20px;
+color: #7A231B;
+padding: 1px 0px;
+text-align: center;
+text-transform:uppercase;
+font-size: 20px;
 }
 
 .stop_button {
-	margin-left: 100px;
-	-webkit-border-radius: 15px;
-	-moz-border-radius: 15px;
-	border-radius: 15px;
-	background-color: #BF362A;
-	border: 2px solid #7A231B;
-	height: 60px;
-	width: 200px;
+margin-bottom: 100px;
+-webkit-border-radius: 15px;
+-moz-border-radius: 15px;
+border-radius: 15px;
+background-color: #7A231B;
+border: 2px solid #BF362A;
+height: 60px;
+width: 200px;
+float: left;
 }
 
 .stop_button:hover {
-	margin-left: 100px;
-	-webkit-border-radius: 15px;
-	-moz-border-radius: 15px;
-	border-radius: 15px;
-	background-color: #E03F31;
-	height: 60px;
-	width: 200px;
+background-color: #702019;
 }
-
 
 .stop_button p {
-	color: #7A231B;
-	padding: 1px 0px;
-	text-align: center;
-	text-transform:uppercase;
-	font-size: 20px;
+color: #BF362A;
+padding: 1px 0px;
+text-align: center;
+text-transform:uppercase;
+font-size: 20px;
 }
+
+.clean {
+width: 200px;
+float: left;}
+
+.clean ul {
+list-style-type: none;
+}
+
+.clean ul li{
+color: #F2D5A0;
+font-size: 18px;
+font-family: "century gothic";
+}
+
+.dirty {
+margin: 100px;
+width: 200px;
+float: left;
+}
+
+.dirty ul {
+list-style-type: none;
+}
+
+.dirty ul li{
+color: #F2D5A0;
+font-size: 18px;
+font-family: "century gothic";
+}
+
+
+
